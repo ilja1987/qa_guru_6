@@ -1,7 +1,5 @@
 import zipfile
 from PyPDF2 import PdfReader
-import os
-import shutil
 
 
 def test_xlsx(arch):
@@ -23,8 +21,3 @@ def test_pdf(rem):
     assert page.extractText().__contains__('qa_guru')
 
 
-# def test_rem():
-#     os.remove('T_archive.zip')
-#     path = os.path.join(os.path.abspath(os.path.dirname(__file__)), './pdf')
-#     shutil.rmtree(path)
-#
