@@ -1,5 +1,5 @@
 zipfile
 PyPDF2
-pytest
+pytest==7.1
 os
 shutil
