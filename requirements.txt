@@ -1,0 +1,5 @@
+zipfile
+PyPDF2
+pytest
+os
+shutil
